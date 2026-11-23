@@ -49,3 +49,5 @@ footer{color:var(--muted);padding:48px 0 32px;font-size:14px}
 .soon .tag{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
 :root[data-mode="light"] .pic-dark,:root:not([data-mode="light"]) .pic-light{display:none}
 footer p{margin:.4em 0}
+.grid:not(.soonrow) .card{max-width:420px}
+.soonrow{grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr))}
